@@ -73,7 +73,7 @@
   ];
   
   // TODO: enter your public API key
-  const BUILDER_PUBLIC_API_KEY = 'f1a790f8c3204b3b8c5c1795aeac4660'; // ggignore
+  const BUILDER_PUBLIC_API_KEY = ''; // ggignore
   const content = ref<BuilderContent | null>(null);
   const canShowContent = ref(false);
   const model = 'page';
