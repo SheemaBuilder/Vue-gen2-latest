@@ -1,6 +1,6 @@
 <template>
   <div class="hello-world">
-    <div class="text">Hello {{ context.builderContent.data.title }}!</div>
+    <div class="text">Hello {{ builderContext.content.data.title }}!</div>
     <slot></slot>
   </div>
 </template>
@@ -11,6 +11,10 @@ export default {
     text: {
       type: String,
       default: '',
+    },
+    builderContext: {
+      type: Object,
+      default: () => ({}),
     },
   },
 };
